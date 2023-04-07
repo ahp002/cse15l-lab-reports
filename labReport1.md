@@ -11,5 +11,6 @@
 8. Into the terminal, type in `$ ssh cs15lsp23xxieng6.ucsd.edu` where the xx is your course-specific account username's last two characters.
 9. You'll get a prompt that looks like this:
   Type yes and then enter. Then enter your computer's password.
-10. Congratulations! You'll have logged into your course-specific account when you see this:
+10. Congratulations! You'll have logged into your course-specific account when you see this: 
+ ![Image](congrats.png)
 
