@@ -12,7 +12,7 @@ This is so you can find the username needed when you log into the remote access.
 5. Once you click on the option, you'll be led to a new page to change your password. Click on the option that says `Proceed to the Password Change Tool`.
 6. Enter the username of the cse15l account and follow the instructions to change its password on the page. You may have to pull up your gmail when it sends a confirmation to your inbox. Make sure to check your spam inbox if you don't see it there.
 7. Open VS Code and open up a new terminal. For Macs, to open a new terminal, go to the bar above in the left corner and click terminal > New Terminal.
-8. Into the terminal, type in `$ ssh cs15lsp23xxieng6.ucsd.edu` where the **xx** is your course-specific account username's **last two characters**. Everything before the *ieng6.ucsd.edu* should just be your course-specific account username that you looked up earlier.
+8. Into the terminal, type in `$ ssh cs15lsp23xx@ieng6.ucsd.edu` where the **xx** is your course-specific account username's **last two characters**. Everything before the *ieng6.ucsd.edu* should just be your course-specific account username that you looked up earlier.
 9. You'll get a prompt that looks like this:
   ![yes](yes.png)
   Type yes and then enter. Then enter your computer's password.
