@@ -34,5 +34,9 @@ Try running commands in the terminal like:
 * ls -lat
 
 
-Here is what it should look like:
+**Here is what it should look like:**
+
+
+
+
 ![commands](commands.png)
