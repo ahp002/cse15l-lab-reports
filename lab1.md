@@ -1,9 +1,15 @@
 # Lab Report 1 - Remote Access and FileSystem (Week 1)
 
+## How to Download VS Code
+This is an important step that you shouldn't skip! You will need VS Code to access the remote server and log into your course-specific account.
+1. Download VS Code [here](https://code.visualstudio.com/)
+2. Follow the instructions on the website as you download and install the program onto your computer.
+3. Once you have installed VS Code, open it up!
+
 ## How to Log Into a Course-Specific Account on ieng6
 1. Find your course-specific account through this [link](https://sdacs.ucsd.edu/~icc/index.php).
 This is so you can find the username needed when you log into the remote access.
-3. Log into the account lookup section using your UCSD username and student PID.
+2. Log into the account lookup section using your UCSD username and student PID.
   ![Image](AccountLookup.png)
   Your ucsd username should be the same one you use to log into your TritonLink account for school. 
 3. Scroll down to the `Additional Accounts` section and look for the username that starts with `cs15l`. Make sure it's `cs15l` and not `cs12`.
@@ -20,3 +26,13 @@ This is so you can find the username needed when you log into the remote access.
  ![Image](congrats.png)
  ---
 
+## Commands to Try on the Remote Server
+Try running commands in the terminal like:
+* ls -a
+* ls
+* pwd
+* ls -lat
+
+
+Here is what it should look like:
+![commands](commands.png)
