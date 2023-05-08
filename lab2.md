@@ -12,25 +12,9 @@
 
 `Descriptions:`
 
-1. Methods called:
-* Server.start()
-* integer.parseInt()
-* main()
-* handleRequest()
-* url.getPath()
-* url.getQuery()
-* String.format()
-2. Arguments for each:
-* Server.start(port, new ServerHandler())
-* integer.parseInt(args[0])
-* main(String[] args)
-* handleRequest(URI url)
-* url.getPath()
-* url.getQuery()
-* String.format(message)
-Relevant fields:
-* String message = "";
-3. The field named message had its value "" changed when updated with different requests in the URL. It got updated  with a new line concatenated to it and the new requested strings. 
+1. The methods called are the handleRequest method in the ServerHandler class and the main method in the StringServer class.
+2. The handleRequest method takes in a url of the type URI as the argument and the main method takes in the port number as the argument. The ServerHandler class has a field called message of the type String and the StringServer class doesn't have any relevant fields.
+3. The value of message changes from this request because it changes from an empty String "" to "Hello" and a concatenated line after it.
 
 
 
@@ -41,25 +25,9 @@ Relevant fields:
 `Descriptions:`
 
 
-1. Methods called:
-* Server.start()
-* integer.parseInt()
-* main()
-* handleRequest()
-* url.getPath()
-* url.getQuery()
-* String.format()
-2. Arguments for each:
-* Server.start(port, new ServerHandler())
-* integer.parseInt(args[0])
-* main(String[] args)
-* handleRequest(URI url)
-* url.getPath()
-* url.getQuery()
-* String.format(message)
-Relevant fields:
-* String message = "";
-3. The field named message had its value "" changed when updated with different requests in the URL. It got updated  with a new line concatenated to it and the new requested strings onto the running string. 
+1. The methods called are the handleRequest method in the ServerHandler class and the main method in the StringServer class.
+2. The handleRequest method takes in a url of the type URI as the argument and the main method takes in the port number as the argument. The ServerHandler class has a field called message of the type String and the StringServer class doesn't have any relevant fields.
+3. The value of message changes from this request because it changes from the String "Hello" and a new concactenated line after it to "Hello", "ur mom" in a new line, and a new concatenated line after it.
 
 
 ## Part 2
