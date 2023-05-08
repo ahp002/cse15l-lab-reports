@@ -72,6 +72,9 @@ Output:
 
 Explanation: The command grep -i performs a case-insensitive search where it matches the String "public" and returns all lines that match the String. It's useful for finding the lines that match the String you give in the command.
 
+Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
+
+
 **Option 2:**
 
 Example: grep -v
@@ -99,6 +102,7 @@ Output:
 
 ```
 
+Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
 
 **Option 3:**
 
@@ -126,6 +130,7 @@ Output:
 
 ```
 
+Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
 
 **Option 4:**
 
@@ -153,3 +158,4 @@ Output:
 
 ```
 
+Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
