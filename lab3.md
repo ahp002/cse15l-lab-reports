@@ -31,7 +31,7 @@ Military Notification and Response. The first indication that the NORAD air defe
     At 9:33, the tower supervisor at Reagan National Airport picked up a hotline to the Secret Service and told the Service's operations center that "an aircraft [is] coming at you and not talking with us." This was the first specific report to the Secret Service of a direct threat to the White House. No move was made to evacuate the Vice President at this time. As the officer who took the call explained, "[I was] about to push the alert button when the tower advised that the aircraft was turning south and approaching Reagan National Airport."
 ```
 
-Explanation: The command grep -i performs a case-insensitive search where it matches the String "tower" and returns all lines that match the String. It's useful for finding the lines that match the String you give in the command.
+Explanation: The command grep -i performs a case-insensitive search where it matches the String "tower" and returns all lines that match the String within the given file that we give it. It's useful for finding the lines in the given file that match the String you give in the command.
 
 Example: grep -i
 
@@ -70,10 +70,9 @@ Output:
                     company to its employees and the public for legal purposes. Private-sector
 ```
 
-Explanation: The command grep -i performs a case-insensitive search where it matches the String "public" and returns all lines that match the String. It's useful for finding the lines that match the String you give in the command.
+Explanation: The command grep -i performs a case-insensitive search where it matches the String "public" and returns all lines that match the String within the given file that we give it. It's useful for finding the lines in the given file that match the String you give in the command.
 
 Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
-
 
 **Option 2:**
 
@@ -86,7 +85,7 @@ grep -v "at" bcr583.txt
 
 Output:
 ```
-Introduction
+        Introduction
         breast cancer derives from several lines of evidence [ 1 ]
         during childhood and adolescence are important in
         establishing a higher risk of breast cancer [ 2 3 ] .
@@ -342,7 +341,7 @@ Introduction
         Competing interests
 ```
 
-Explanation: The command grep -v will only display the lines that don't match the pattern. The file that we gave it and the pattern we gave it made it display all the lines in the file that didn't match the String "at".
+Explanation: The command grep -v takes in a txt file and a pattern, it displayed all the lines in the file that didn't match the String "at". This command is useful for displaying the lines that don't match the given pattern in the command.
 
 Example: grep -v
 
@@ -694,6 +693,8 @@ Introduction
         relative risk.
 ```
 
+Explanation: The command grep -v takes in a txt file and a pattern, it displayed all the lines in the file that didn't match the String "day". This command is useful for displaying the lines that don't match the given pattern in the command.
+
 Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
 
 **Option 3:**
@@ -707,7 +708,7 @@ grep -e "a" -e "e" -e "i" rr73.txt
 
 Output:
 ```
-Introduction
+        Introduction
         Three-dimensional (3D) collagen gel culture has been
         used as an 
         in vitro model of 
@@ -995,6 +996,7 @@ Introduction
             Little Chalfont, Buckinghamshire, England).
 ```
 
+Explanation: The command grep -e takes in a txt file and multiple patterns, it displayed all the lines in the file that matched all the Strings "a", "e", and "i". This command is useful for displaying the lines that match multiple given patterns in the command.
 
 Example: grep -e
 Command:
@@ -1014,6 +1016,8 @@ every 5 days. The areas of floating gels were measured
             temperature for 1 hour, then exposed to primary
 ```
 
+Explanation: The command grep -e takes in a txt file and multiple patterns, it displayed all the lines in the file that matched both the Strings "day" and "primary". This command is useful for displaying the lines that match multiple given patterns in the command so you can narrow the lines down when trying to find a specific one.
+
 Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
 
 **Option 4:**
@@ -1030,6 +1034,7 @@ Output:
 1
 ```
 
+Explanation: The command grep -c takes in a txt file and a pattern, it displayed the number of lines in the file that matched the String/pattern "primary". This command is useful for finding the number of lines in a file that match the given pattern in the command.
 
 Example: grep -c
 Command:
@@ -1041,5 +1046,7 @@ Output:
 ```
 7
 ```
+
+Explanation: The command grep -c takes in a txt file and a pattern, it displayed the number of lines in the file that matched the String/pattern "day". This command is useful for finding the number of lines in a file that match the given pattern in the command.
 
 Cited Source: I found the command through ChatGTP, I asked it to give me some interesting command-line options for the grep command and it gave me a variety to choose from, their descriptions, and how to use them.
