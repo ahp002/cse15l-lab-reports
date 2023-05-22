@@ -1,6 +1,7 @@
 # Lab Report 4 (Week 7)
 
 4. Keys Pressed:
+
 ```
 ssh<space>cs15lsp23qk@ieng6.ucsd.edu<enter>
 *Password*<enter>
