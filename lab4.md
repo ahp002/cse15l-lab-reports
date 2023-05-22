@@ -8,7 +8,7 @@ ssh<space>cs15lsp23qk@ieng6.ucsd.edu<enter>
 ```
 5. Keys Pressed:
 ```
-git<space>clone<space>git@github.com:ahp002/lab7.git<enter>
+git<space>clone<space>https://github.com/ahp002/lab7<enter>
 ```
 6. Keys Pressed:
 ```
