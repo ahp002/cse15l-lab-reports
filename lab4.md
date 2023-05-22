@@ -41,7 +41,7 @@ seven.
 Keys Pressed:
 ```
 vim<space>ListExamples.java<enter>/+<enter>nnnhhxi2<esc>:wq<enter>
-I used vim to edit the file, searched the + to get to the error quicker, used n 3 times to get to the closest + sign to the error, h twice to go left, x to remove, i to insert 2 and then escaped to exit insert mode, then saved and quit from vim
+I used vim to edit the file, searched the + to get to the error quicker, used n 3 times to get to the closest + sign to the error, h twice to go left, x to remove, i to insert 2 and then escaped to exit insert mode, then saved and quit from vim.
 ```
 
 eight. 
