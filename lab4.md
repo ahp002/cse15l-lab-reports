@@ -12,22 +12,26 @@ git<space>clone<space>https://github.com/ahp002/lab7<enter>
 ```
 6. Keys Pressed:
 ```
-bashtest.sh<enter>
+cd<space>lab7<enter>
+bash<space>test.sh<enter>
 ```
 7. Keys Pressed:
 ```
-vim<space>ListExamples.java<enter>/+<enter>nnnhhxi2<esc>:wq
+vim<space>ListExamples.java<enter>/+<enter>nnnhhxi2<esc>:wq<enter>
 ```
 8. Keys Pressed:
 ```
-<up><up>bashtest.sh<enter>
-The command was 2 up in the history so I used the up arrow key to access it.
+<up><up><enter>
+The bash test.sh command was 2 up in the history so I used the up arrow key to access it.
 ```
 9. 
 ```
-git branch -m main
-git<space>commit<space>-m<space>"added<space>2"<enter>
+git<space>add<space>-A<enter>
+git<space>commit<space>-m<space>"update"<enter>
+git<space>init<enter>
+git<space>branch<space>-m<space>main<enter>
 git<space>remote<space>add<space>origin<space>git@github.com:ahp002/lab7.git<enter>
-git<space>branch<space>-M<space>main<enter>
-git<space>push<space>-u<space>origin<space>main<enter>
+git<space>push<space>origin<space>main<enter>
+ahp002<enter>
+personal access token as password<enter>
 ```
