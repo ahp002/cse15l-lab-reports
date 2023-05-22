@@ -1,6 +1,6 @@
 # Lab Report 4 (Week 7)
 
-4. Keys Pressed:
+four. Keys Pressed:
 
 ```
 ssh<space>cs15lsp23qk@ieng6.ucsd.edu<enter>
@@ -10,14 +10,14 @@ ssh<space>cs15lsp23qk@ieng6.ucsd.edu<enter>
 
 ![image](fourth.png)
 
-5. Keys Pressed:
+five. Keys Pressed:
 ```
 git<space>clone<space>git@github.com:ahp002/lab7.git<enter>
 ```
 
 ![image](fifth.png)
 
-6. Keys Pressed:
+six. Keys Pressed:
 ```
 cd<space>lab7<enter>
 bash<space>test.sh<enter>
@@ -25,14 +25,14 @@ bash<space>test.sh<enter>
 
 ![image](sixth.png)
 
-7. Keys Pressed:
+seven. Keys Pressed:
 ```
 vim<space>ListExamples.java<enter>/+<enter>nnnhhxi2<esc>:wq<enter>
 ```
 
 ![image](seventh.png)
 
-8. Keys Pressed:
+eight. Keys Pressed:
 ```
 <up><up><enter>
 The bash test.sh command was 2 up in the history so I used the up arrow key to access it.
@@ -40,7 +40,7 @@ The bash test.sh command was 2 up in the history so I used the up arrow key to a
 
 ![image](eighth.png)
 
-9. 
+nine. 
 ```
 git<space>add<space>ListExamples.java<enter>
 git<space>commit<space>-m<space>"update"<enter>
