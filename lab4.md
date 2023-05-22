@@ -50,3 +50,7 @@ git<space>push<space>origin<space>main<enter>
 ahp002<enter>
 personal access token as password<enter>
 ```
+
+![image](https://github.com/ahp002/cse15l-lab-reports/blob/444b26514ab160d786245ca87f252e54772a2fa5/%239.png)
+
+![image](https://github.com/ahp002/cse15l-lab-reports/blob/444b26514ab160d786245ca87f252e54772a2fa5/%2399.png)
