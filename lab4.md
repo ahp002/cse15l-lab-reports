@@ -13,7 +13,7 @@ I logged into my ieng6 account.
 ```
 
 
-5. 
+5.
 
 ![image](fifth.png)
 
@@ -41,8 +41,9 @@ I switched to the lab7 repository and ran the tests in it.
 Keys Pressed:
 ```
 vim<space>ListExamples.java<enter>/+<enter>nnnhhxi2<esc>:wq<enter>
-I used vim to edit the file, pressed the / key to search for the + sign in the file and pressed the n key 3 times 
-to take me to the third + sign that matched my search, h twice to go left, x to remove, i to insert 2 and then pressed the esc key to exit
+I used vim to edit the file, pressed the / key to search for the + sign in the file and 
+pressed the n key 3 times to take me to the third + sign that matched my search, h twice 
+to go left, x to remove, i to insert 2 and then pressed the esc key to exit
 insert mode, then saved and quit from vim using :wq.
 ```
 
