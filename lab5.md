@@ -74,7 +74,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar
 org.junit.runner.JUnitCore TestListExamples > junit-output.txt
 ```
 Remove the $CPATH and add the extra junit command to each line on lines 17 and 19. 
-Add javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar in front of `*.java` and in front of org.junit.runner.JUnitCore TestListExamples > junit-output.txt.
+Also add .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar in front of `*.java` and in front of org.junit.runner.JUnitCore TestListExamples > junit-output.txt.
 
 
 
