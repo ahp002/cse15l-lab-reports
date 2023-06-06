@@ -56,7 +56,6 @@ Here's my bash script:
 ![contents](before.png)
 ![image](tested.png)
 ![test](empty.png)
-![pic](your.png)
 ![mama](mama.png)
 ![bobby](yom.png)
 ![tist](tester.png)
