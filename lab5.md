@@ -15,7 +15,7 @@
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
 
-* I ran the command `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` which produced the symptom of 4 tests passed along with a student's github repository successfully cloned and an Exception in thread "main" java.lang.NoClassDefFoundError caused by java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing. I'm in the working directory `/Users/cpcookie/Documents/GitHub/list-examples-grader-1`. I think the failure-inducing input might be within the bash file because the failure was caused by org.hamcrest.SelfDescribing and the bash file doesn't have the .jar command structure that junit requires to run commands:
+* I ran the command `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3` which produced the symptom of 4 tests passed along with a student's github repository successfully cloned and an Exception in thread "main" java.lang.NoClassDefFoundError caused by java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing. I'm in the working directory `/Users/cpcookie/Documents/GitHub/list-examples-grader`. I think the failure-inducing input might be within the bash file because the failure was caused by org.hamcrest.SelfDescribing and the bash file doesn't have the .jar command structure that junit requires to run commands:
 
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
@@ -43,12 +43,6 @@ Here's my bash script:
 **Screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
 * The bug is within the grade.sh bash script. I changed lines 17 and 19 because they were missing the .jar part of junit and removed the $CPATH from both lines as well.
 
-```
-javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
-
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore <class name>
-```
-
 ![better](better.png)
 
 
@@ -66,6 +60,13 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3`
 
 * A description of what to edit to fix the bug:
+In the grade.sh bashscript, change lines 17 and 19 respectively:
+
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > junit-output.txt
+```
 
 
 
