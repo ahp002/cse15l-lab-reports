@@ -8,7 +8,7 @@
 
 
 * I see 4 tests passed, a student's github repository successfully cloned, and an Exception in thread "main" java.lang.NoClassDefFoundError caused by java.lang.ClassNotFoundException: org.hamcrest.SelfDescribing. I expected to see 4 tests ran with 2 failures, a score of 2/4, and a student's github repository successfully cloned. 
-<!-- ![fail](fail.png) -->
+![fail](fail.png)
 
 
 
@@ -43,7 +43,7 @@ Here's my bash script:
 **Screenshot/terminal output showing what information the student got from trying that, and a clear description of what the bug is.**
 * The bug is within the grade.sh bash script. I changed lines 17 and 19 because they were missing the .jar part of junit and removed the $CPATH from both lines as well.
 
-<!-- ![bett](bett.png) -->
+![bett](bett.png)
 
 
 **Setup Information**
@@ -54,9 +54,12 @@ Here's my bash script:
 * The contents of each file before fixing the bug:
 
 ![contents](before.png)
-![image]()
-![test]()
-![pic]()
+![image](tested.png)
+![test](empty.png)
+![pic](your.png)
+![mama](mama.png)
+![bobby](yom.png)
+![tist](tester.png)
 
 * The full command line (or lines) you ran to trigger the bug:
 
