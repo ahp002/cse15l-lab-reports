@@ -1,7 +1,7 @@
 # Lab Report 5 (Week 9)
 ## Part 1
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
-* I'm using the Visual Studio Code editor on my MacBook Pro that's on the macOS Monterey.
+* I'm using the Visual Studio Code editor on the local server on my MacBook Pro that's on the macOS Monterey.
 
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
