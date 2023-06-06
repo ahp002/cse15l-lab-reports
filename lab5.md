@@ -70,11 +70,15 @@ In the grade.sh bashscript, change lines 17 and 19 respectively:
 ```
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 
-java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore TestListExamples > junit-output.txt
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar 
+org.junit.runner.JUnitCore TestListExamples > junit-output.txt
 ```
+Remove the $CPATH and add the extra junit command to each line on lines 17 and 19. 
+Add javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar in front of `*.java` and in front of org.junit.runner.JUnitCore TestListExamples > junit-output.txt.
 
 
 
 
 ## Part 2
-
+In the second half of this quarter, I learned the basics of writing a bashscript. It was especially cool to find out how the TAs write the autograders 
+for gradescope using bash scripts.
